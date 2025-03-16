@@ -13,7 +13,7 @@ const addUser = async(req,res)=>{
           return res.status(201).json({message: "user created successfully"})
     } catch (error) {
         console.log(error);
-        res.status(error,status || 500).json({error:error.message || "inrternal sserver error"})
+        res.status(error.status || 500).json({error:error.message || "inrternal sserver error"})
         
     }
 }
