@@ -11,7 +11,16 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.2",
+    "mongoose": "^8.12.1",
     "nodemon": "^3.1.9"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mubashir13885/first-CRUD-repository.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mubashir13885/first-CRUD-repository/issues"
+  },
+  "homepage": "https://github.com/mubashir13885/first-CRUD-repository#readme",
   "description": ""
 }
